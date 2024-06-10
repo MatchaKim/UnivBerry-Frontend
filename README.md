@@ -1,75 +1,42 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+프론트엔드 화면 및 코드 설명
 
-Make sure to install the dependencies:
+네비게이션 바 컴포넌트
+설명
+사용자 인증 상태에 따라 네비게이션 링크를 동적으로 표시하는 네비게이션 바입니다.
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
+인증 그룹 선택 컴포넌트
+설명
+인증 그룹을 선택하는 드롭다운 메뉴입니다. 사용자가 인증 그룹을 선택하면 해당 그룹의 ID가 이벤트를 통해 상위 컴포넌트로 전달됩니다.
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
+대학 검색 및 인증 그룹 생성 컴포넌트
+설명
+대학을 검색하여 이메일 도메인을 강제로 설정하고 인증 그룹을 생성하는 기능을 제공합니다. 사용자가 대학을 검색하고 선택하면 해당 대학의 이메일 도메인을 강제로 설정하여 인증 그룹을 생성합니다.
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
+로그인 화면
+설명
+사용자가 로그인할 수 있는 화면입니다. 로그인 시 입력한 정보를 통해 인증 요청을 보내고, 성공 시 홈 화면으로 리디렉션합니다.
 
-```bash
-# npm
-npm run dev
 
-# pnpm
-pnpm run dev
+회원가입 화면
+설명
+사용자가 회원가입할 수 있는 화면입니다. 사용자명, 이메일, 비밀번호를 입력하여 회원가입 요청을 보냅니다.
 
-# yarn
-yarn dev
 
-# bun
-bun run dev
-```
+인증 그룹 생성 화면
+설명
+인증 그룹을 생성할 수 있는 화면입니다. 사용자가 인증 그룹을 생성하고, 해당 그룹에 사용자를 추가할 수 있습니다.
 
-## Production
 
-Build the application for production:
+인증 상태 확인 화면
+설명
+특정 제품 사용자 ID를 받아와서 해당 사용자의 인증 상태를 확인하는 화면입니다. 인증 결과를 화면에 표시합니다.
 
-```bash
-# npm
-npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+전체 인증 그룹 조회 및 사용자 이메일 전송 컴포넌트
+설명
+인증 그룹을 선택하고 해당 그룹에 속한 사용자 목록을 조회할 수 있습니다. 특정 사용자에게 인증 이메일을 전송하는 기능을 포함합니다.
