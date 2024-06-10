@@ -21,7 +21,7 @@ const route = useRoute();
 onMounted(async () => {
   // URL 파라미터에서 ID를 받아옴
   const productId = route.params.id;
-  const url = `http://localhost:8080/product-user/verify/product/${productId}`;
+  const url = `http://univberry.site:8080/product-user/verify/product/${productId}`;
 
   try {
     const response = await fetch(url);
