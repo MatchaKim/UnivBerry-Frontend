@@ -14,6 +14,32 @@
               Univberry가 더 빠르고 간편하게 재학여부를 제공합니다.
             </p>
   
+            <div class="m-5">
+              <span class="inline-flex items-center text-sm px-2.5 py-1.5 bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10 text-primary-500 dark:text-primary-400 ring-1 ring-inset ring-primary-500 dark:ring-primary-400 ring-opacity-25 dark:ring-opacity-25 relative rounded-full font-semibold">
+                <a href="https://github.com/MatchaKim/UnivBerry-Frontend" rel="noopener noreferrer" target="_blank" class="focus:outline-none" tabindex="-1">
+                  <span class="absolute inset-0" aria-hidden="true"></span>
+                </a>
+                Univberry Frontend Github 참고하기
+                <span class="i-heroicons-arrow-top-right-on-square-20-solid ml-1 w-4 h-4 pointer-events-none"></span>
+              </span>
+            </div>
+            <div class="mb-5">
+              <span class="inline-flex items-center text-sm px-2.5 py-1.5 bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10 text-primary-500 dark:text-primary-400 ring-1 ring-inset ring-primary-500 dark:ring-primary-400 ring-opacity-25 dark:ring-opacity-25 relative rounded-full font-semibold">
+                <a href="https://github.com/MatchaKim/UnivBerry-Backend" rel="noopener noreferrer" target="_blank" class="focus:outline-none" tabindex="-1">
+                  <span class="absolute inset-0" aria-hidden="true"></span>
+                </a>
+                Univberry Backend Github 참고하기
+                <span class="i-heroicons-arrow-top-right-on-square-20-solid ml-1 w-4 h-4 pointer-events-none"></span>
+              </span>
+            </div>
+           
+  
+            <div class="mt-10 flex flex-wrap gap-x-6 gap-y-3 justify-center">
+              <a class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-full text-base px-3.5 py-2.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 bg-gray-50 hover:bg-gray-100 disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center" href="https://extraordinary-ganache-12e153.netlify.app/" rel="noopener noreferrer" target="_blank">
+                <span>Univberry 사용자가이드</span>
+                <span class="i-heroicons-arrow-top-right-on-square-20-solid ml-1 w-4 h-4 pointer-events-none"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
