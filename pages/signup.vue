@@ -30,7 +30,6 @@ const password = ref("");
 const handleSignup = async () => {
   try {
     await auth.signup(username.value, email.value, password.value);
-    router.push("/login");
   } catch (error) {
     console.error("Signup failed:", error);
   }

@@ -28,9 +28,13 @@ export const useAuth = () => {
     });
 
     console.log(config.public.apiBase+"apiBASE")
-    
+
     if (data.value && data.value.accessToken) {
-      saveAuth(data.value, `${data.value.tokenType} ${data.value.accessToken}`);
+      await saveAuth(data.value, `${data.value.tokenType} ${data.value.accessToken}`);
+      await alert("로그인 성공")
+      await useRouter().push("/")
+    }else{
+      alert("로그인에 실패하셨습니다")
     }
   };
 
@@ -40,8 +44,12 @@ export const useAuth = () => {
       method: 'POST',
       body: { username, email, password }
     });
-    if (data.value && data.value.id) {
-      await login(username, password); // 회원가입 후 자동으로 로그인
+    if (data.value.message=="User registered successfully!"){
+      alert("회원가입 성공!")
+      useRouter().push("/login")
+    }else{
+      alert("회원가입을 실패했습니다")
+      useRouter().push("/")
     }
   };
 

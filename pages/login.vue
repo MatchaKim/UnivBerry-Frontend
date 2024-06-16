@@ -25,7 +25,6 @@ const password = ref('')
 
 const handleLogin = async () => {
   await auth.login(username.value, password.value)
-  useRouter().push("/")
 }
 </script>
 
