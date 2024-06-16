@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      apiBase: 'http://univberry.site:8080/api' // 백엔드 엔드포인트
+      apiBase: 'http://localhost:8080/api' // 백엔드 엔드포인트
     }
   },
   server: {
