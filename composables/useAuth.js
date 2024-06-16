@@ -48,8 +48,7 @@ export const useAuth = () => {
       alert("회원가입 성공!")
       useRouter().push("/login")
     }else{
-      alert("회원가입을 실패했습니다")
-      useRouter().push("/")
+      alert("회원가입을 실패했습니다"+data.value.message)
     }
   };
 

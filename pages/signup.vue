@@ -28,11 +28,7 @@ const email = ref("");
 const password = ref("");
 
 const handleSignup = async () => {
-  try {
     await auth.signup(username.value, email.value, password.value);
-  } catch (error) {
-    console.error("Signup failed:", error);
-  }
 };
 </script>
 
