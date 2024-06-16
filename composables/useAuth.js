@@ -26,6 +26,9 @@ export const useAuth = () => {
       method: 'POST',
       body: { username, password }
     });
+
+    console.log(config.public.apiBase+"apiBASE")
+    
     if (data.value && data.value.accessToken) {
       saveAuth(data.value, `${data.value.tokenType} ${data.value.accessToken}`);
     }
